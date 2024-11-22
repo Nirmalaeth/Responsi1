@@ -1,0 +1,142 @@
+body {
+    font-family: 'Arial', sans-serif;
+    scroll-behavior: smooth;
+    transition: background-color 0.5s ease-in-out; /* Animasi saat mengganti warna */
+    background: #FBF4E4; /* Gradasi dari soft blue ke soft pink */
+}
+
+.hero {
+    height: 100vh; /* Tinggi penuh satu viewport */
+    background: linear-gradient(to right, #23747a, #16495E); /* Gradasi dari biru ke biru gelap */
+    display: flex; /* Membuat elemen anak menjadi fleksibel */
+    justify-content: center; /* Memusatkan elemen secara horizontal */
+    align-items: center; /* Memusatkan elemen secara vertikal */
+    text-align: center; /* Teks diatur agar berada di tengah */
+    color: white; /* Warna teks */
+}
+
+
+.hero-profile-photo {
+    width: 150px; /* Atur lebar foto sesuai kebutuhan */
+    height: 150px; /* Atur tinggi foto sesuai kebutuhan */
+    border-radius: 50%; /* Membuat foto menjadi bulat */
+    object-fit: cover; /* Memastikan foto tidak terdistorsi */
+    margin-bottom: 20px; /* Jarak antara foto dan teks */
+}
+
+.navbar {
+    background-color: #f5f5dc; /* Warna putih tulang */
+}
+
+.navbar-nav .nav-link {
+    background: linear-gradient(to right, #add8e6, #ffcccb); /* Gradasi dari soft blue ke soft pink */
+    background-clip: text; /* Memotong latar belakang untuk teks */
+    -webkit-background-clip: text; /* Memotong latar belakang untuk teks di WebKit */
+    color: transparent; /* Mengisi warna teks dengan transparan */
+    transition: color 0.3s ease; /* Efek transisi saat hover */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffffff; /* Warna teks saat hover */
+}
+
+section {
+    padding: 60px 0;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+#typed-text {
+    font-size: 1.5rem;
+    font-style: italic;
+    color: #f8f9fa;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center; /* Memusatkan ikon secara horizontal */
+    align-items: center; /* Memusatkan ikon secara vertikal */
+    gap: 20px; /* Memberikan jarak antar ikon */
+    margin-top: 20px; /* Jarak atas dari elemen sebelumnya */
+}
+
+.social-icons a {
+    color: #000; /* Warna ikon default */
+    transition: transform 0.3s, color 0.3s; /* Animasi hover */
+}
+
+.social-icons a:hover {
+    color: #007bff; /* Warna saat hover */
+    transform: scale(1.2); /* Memperbesar sedikit saat hover */
+}
+
+#skills {
+    background-color: #80A5B8; /* Mengubah warna latar belakang menjadi #80A5B8 */
+    padding: 60px 0; /* Padding atas dan bawah */
+    color: white; /* Mengubah warna teks menjadi putih agar kontras dengan latar belakang */
+    transform: scale(1.1); /* Memperbesar card saat di-hover */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* Menambahkan efek bayangan */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animasi hover */
+}
+
+
+#contact {
+    background-color: #80A5B8; /* Mengatur warna latar belakang menjadi #80A5B8 */
+    color: white; /* Mengubah warna teks menjadi putih agar kontras dengan latar belakang */
+    padding: 60px 0; /* Padding atas dan bawah */
+}
+
+footer {
+    background-color: #80A5B8; /* Mengatur warna latar belakang footer menjadi #80A5B8 */
+    color: white; /* Mengubah warna teks menjadi putih agar kontras dengan latar belakang */
+    padding: 20px 0; /* Padding atas dan bawah */
+}
+
+.card {
+    height: 100%; /* Memastikan semua card memiliki tinggi penuh */
+    display: flex;
+    flex-direction: column; /* Menyusun elemen secara vertikal */
+    justify-content: space-between; /* Memberikan jarak yang merata antar elemen */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Memberikan efek bayangan */
+    border-radius: 10px; /* Membuat sudut card menjadi melengkung */
+    overflow: hidden; /* Menyembunyikan konten yang melebihi batas card */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animasi hover */
+}
+
+.card img {
+    height: 200px; /* Mengatur tinggi gambar di bagian atas card */
+    object-fit: cover; /* Memastikan gambar terpotong dengan baik */
+}
+
+.card-body {
+    padding: 20px; /* Menambahkan jarak dalam card */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Memastikan teks diatur dari atas */
+    text-align: center; /* Memusatkan teks */
+}
+
+.card-title {
+    font-size: 1.25rem; /* Ukuran font untuk judul */
+    margin-bottom: 10px; /* Jarak antara judul dan teks */
+}
+
+.card-text {
+    font-size: 1rem; /* Ukuran font untuk deskripsi */
+    color: #6c757d; /* Warna teks untuk deskripsi */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Efek pembesaran saat hover */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Efek bayangan saat hover */
+}
+
+.row.g-4 > .col-md-4 {
+    display: flex; /* Mengatur semua card agar memiliki tinggi yang sama */
+    flex-direction: column; /* Menyusun elemen secara vertikal */
+}
+
