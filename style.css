@@ -7,7 +7,7 @@ body {
 
 .hero {
     height: 100vh; /* Tinggi penuh satu viewport */
-    background: linear-gradient(to right, #23747a, #16495E); /* Gradasi dari biru ke biru gelap */
+    background: #80A5B8; /* Gradasi dari biru ke biru gelap */
     display: flex; /* Membuat elemen anak menjadi fleksibel */
     justify-content: center; /* Memusatkan elemen secara horizontal */
     align-items: center; /* Memusatkan elemen secara vertikal */
