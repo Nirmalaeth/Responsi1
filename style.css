@@ -82,12 +82,13 @@ section {
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* Menambahkan efek bayangan */
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animasi hover */
 }
-
 .frameworks-icon {
-    max-width: 60px; /* Atur ukuran maksimum lebar */
-    height: 60px;    /* Atur ukuran tinggi */
-    object-fit: cover; /* Pastikan gambar tetap proporsional */
+    max-width: 40px; /* Atur lebar maksimum */
+    height: auto; /* Menyesuaikan tinggi secara proporsional dengan lebar */
+    object-fit: contain; /* Menampilkan seluruh gambar tanpa pemotongan */
+    margin: 0 auto; /* Memusatkan ikon jika diperlukan */
 }
+
 
 #contact {
     background-color: #80A5B8; /* Mengatur warna latar belakang menjadi #80A5B8 */
