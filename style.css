@@ -74,26 +74,20 @@ section {
     transform: scale(1.2); /* Memperbesar sedikit saat hover */
 }
 
-/* Menyesuaikan ukuran gambar ikon di Skills Section */
-.skills-section .img-fluid {
-    max-width: 60px; /* Mengurangi lebar gambar menjadi 60px */
-    height: auto; /* Menjaga rasio tinggi proporsional */
-    object-fit: contain; /* Menjaga gambar tetap utuh tanpa terpotong */
-    margin: 0 auto; /* Memusatkan gambar jika diperlukan */
+#skills {
+    background-color: #80A5B8; /* Mengubah warna latar belakang menjadi #80A5B8 */
+    padding: 60px 0; /* Padding atas dan bawah */
+    color: white; /* Mengubah warna teks menjadi putih agar kontras dengan latar belakang */
+    transform: scale(1.1); /* Memperbesar card saat di-hover */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* Menambahkan efek bayangan */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animasi hover */
 }
 
-/* Untuk Frameworks Icon */
 .frameworks-icon {
-    max-width: 60px; /* Memastikan ukuran ikon lainnya juga seragam */
-    height: auto; /* Tinggi otomatis proporsional dengan lebar */
-    object-fit: contain; /* Tidak ada pemotongan gambar */
-    margin: 0 auto; /* Memusatkan ikon */
-}
-
-/* Secara opsional, jika Anda ingin sedikit meningkatkan ukuran gambar ikon */
-img {
-    max-width: 60px; /* Bisa sesuaikan ukuran ini lebih besar atau lebih kecil sesuai keinginan */
-    height: auto;
+    max-width: 40px; /* Atur lebar maksimum */
+    height: auto; /* Menyesuaikan tinggi secara proporsional dengan lebar */
+    object-fit: contain; /* Menampilkan seluruh gambar tanpa pemotongan */
+    margin: 0 auto; /* Memusatkan ikon jika diperlukan */
 }
 
 
