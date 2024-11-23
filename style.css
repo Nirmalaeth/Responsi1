@@ -109,7 +109,9 @@ footer {
 
 .card img {
     height: 200px; /* Mengatur tinggi gambar di bagian atas card */
-    object-fit: cover; /* Memastikan gambar terpotong dengan baik */
+    width: 100%; /* Memastikan gambar mengisi lebar penuh */
+    object-fit: contain; /* Menampilkan seluruh gambar tanpa memotong */
+    background-color: #f8f9fa; /* Menambahkan latar belakang jika gambar tidak penuh */
 }
 
 .card-body {
