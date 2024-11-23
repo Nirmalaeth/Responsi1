@@ -83,6 +83,11 @@ section {
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animasi hover */
 }
 
+.frameworks-icon {
+    max-width: 60px; /* Atur ukuran maksimum lebar */
+    height: 60px;    /* Atur ukuran tinggi */
+    object-fit: cover; /* Pastikan gambar tetap proporsional */
+}
 
 #contact {
     background-color: #80A5B8; /* Mengatur warna latar belakang menjadi #80A5B8 */
@@ -141,3 +146,19 @@ footer {
     display: flex; /* Mengatur semua card agar memiliki tinggi yang sama */
     flex-direction: column; /* Menyusun elemen secara vertikal */
 }
+
+@media (min-width: 768px) {
+    .row.g-4.align-items-center .col-md-4:nth-child(7) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Menempatkan Project 7 di tengah */
+    }
+}
+
+.card img {
+    height: 200px;
+    object-fit: contain;
+    width: 100%; /* Pastikan gambar memenuhi lebar */
+    background-color: #f8f9fa; /* Latar belakang abu-abu terang untuk gambar kosong */
+}
+
