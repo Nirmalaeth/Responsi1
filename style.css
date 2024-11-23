@@ -162,3 +162,20 @@ footer {
     background-color: #f8f9fa; /* Latar belakang abu-abu terang untuk gambar kosong */
 }
 
+.row.g-4 {
+    display: flex;
+    flex-wrap: wrap; /* Memastikan elemen turun ke baris berikutnya jika tidak muat */
+    gap: 20px; /* Jarak antar kolom */
+    justify-content: center; /* Memusatkan semua kolom secara horizontal */
+    align-items: stretch; /* Menyamakan tinggi semua card */
+}
+
+.row.g-4 > .col-md-4 {
+    flex: 1 1 calc(33.333% - 20px); /* Setiap kolom menempati 1/3 baris (untuk 3 kolom) */
+    max-width: calc(33.333% - 20px); /* Membatasi lebar kolom agar tetap 3 kolom */
+    box-sizing: border-box; /* Menghitung padding dan border dalam ukuran elemen */
+    display: flex;
+    flex-direction: column; /* Elemen diatur secara vertikal */
+}
+
+
